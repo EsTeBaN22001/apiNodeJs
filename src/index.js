@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Routes
 app.use(indexRoutes)
-app.use('/employees', employeesRoutes)
+app.use('/api/employees', employeesRoutes)
 
 
 app.listen(app.get('port'), ()=>{
