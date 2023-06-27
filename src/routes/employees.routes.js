@@ -6,7 +6,7 @@ const router = Router()
 router.get('/', getEmployees)
 router.get('/:id', getEmployee)
 router.post('/', createEmployees)
-router.put('/', updateEmployees)
+router.patch('/:id', updateEmployees)
 router.delete('/:id', deleteEmployees)
 
 export default router
